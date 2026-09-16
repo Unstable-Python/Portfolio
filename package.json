@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix brendan-master-site run dev",
+    "build": "npm --prefix brendan-master-site run build",
+    "cf:login": "npm --prefix brendan-master-site run cf:login",
+    "deploy": "npm --prefix brendan-master-site run deploy",
+    "lint": "npm --prefix brendan-master-site run lint"
+  }
+}
