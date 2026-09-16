@@ -1,6 +1,9 @@
 {
   "name": "portfolio-workspace",
   "private": true,
+  "workspaces": [
+    "brendan-master-site"
+  ],
   "scripts": {
     "dev": "npm --prefix brendan-master-site run dev",
     "build": "npm --prefix brendan-master-site run build",
